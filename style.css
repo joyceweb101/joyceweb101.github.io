@@ -55,10 +55,6 @@ header a{
     color:#18151d;
 }
 
-header a:hover{
-    color:#dd1111;
-}
-
 main {
     max-width: 800px;
     margin: 0 auto;
@@ -98,10 +94,6 @@ img {
     position:relative;
     color: #5b3131;
     font-size: 20px;
-}
-
-.youtube a:hover{
-    background-color: #c41111;
 }
 
 .subscribe {
