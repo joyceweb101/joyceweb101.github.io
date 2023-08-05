@@ -44,6 +44,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
     showReviews();
 
+    
     const newReviewForm = document.getElementById("addReview");
     newReviewForm.addEventListener("submit", (event)=> {
         event.preventDefault();

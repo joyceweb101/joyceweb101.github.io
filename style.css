@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Righteous&family=Roboto+Mono:ital,wght@1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Merriweather&family=Righteous&family=Roboto+Mono:ital,wght@1,600&family=Ubuntu&display=swap');
 
-@media screen and (max-width: 480px) {
-    body, footer, nav {
-        background-color: #c41111;
-    }
-}
+
 
 body{
     font-family: 'Ubuntu', sans-serif;
@@ -220,9 +216,22 @@ footer{
 }
 
 
-@media screen and (max-width: 500px) {
-    body {
-      background-color: lavender;
+@media screen and (max-width:480px) {
+    body,footer{
+        margin-bottom: 20px;
     }
+
+    nav{
+    background-color: #b31717;
+    color: #fff;
+    padding: 30px;
+   }
+   
+   #reviewsCards {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 20px;
+  }
+ 
   }
 
