@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Righteous&family=Roboto+Mono:ital,wght@1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Merriweather&family=Righteous&family=Roboto+Mono:ital,wght@1,600&family=Ubuntu&display=swap');
 
+
 body{
     font-family: 'Ubuntu', sans-serif;
     line-height: 1.5;
@@ -213,8 +214,7 @@ footer{
     margin-bottom: 10px;
 }
 
-
-@media screen  {
+@media screen and (max-width:480px) {
     body, footer, nav {
         background-color: #c41111;
     }
