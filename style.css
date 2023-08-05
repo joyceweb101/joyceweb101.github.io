@@ -215,9 +215,11 @@ footer{
 }
 
 @media screen and (max-width:480px) {
+
     body, footer, nav {
         background-color: #c41111;
     }
+    
     #reviewsCards {
         grid-template-columns: repeat(2, 1fr);
         margin-bottom: 20px;
