@@ -34,12 +34,12 @@ window.addEventListener("DOMContentLoaded", function () {
     }
 
     function showReviews(){
-    const reviewsCards = document.getElementById("reviewsCards");
-  reviewsCards.innerHTML = "";
+        const reviewsCards = document.getElementById("reviewsCards");
+        reviewsCards.innerHTML = "";
 
-  reviewData.forEach((review) => {
-    reviewsCards.appendChild(createReviewCard(review));
-    });
+        reviewData.forEach((review) => {
+        reviewsCards.appendChild(createReviewCard(review));
+        });
     }
 
     showReviews();
