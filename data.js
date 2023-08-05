@@ -3,7 +3,7 @@ window.reviewData = [
         name: "Kim Lee",
         date: "2023-05-20",
         rating: 4,
-        comment: "Slapjack is a fantastic game for family gatherings. We had so much fun playing it together!"
+        comment: "Slapjack is a fantastic game for family gatherings. Grandkids love playing!"
     },
 
     {
@@ -17,14 +17,14 @@ window.reviewData = [
         name: "Chris Wong",
         date: "2023-07-25",
         rating: 3,
-        comment: "Slapjack is fun, but the game can get quite competitive. It's not for the faint of heart!"
+        comment: "Slapjack is fun, but the game can get quite competitive. It leads to laughter and filled the time on a rainy weekend!"
     },
 
     {
         name: "Sarah Clint",
         date: "2023-07-20",
         rating: 5,
-        comment: "Slapjack is a classic game that never gets old. It's a must-have for every game night!"
+        comment: "Great game! My son love it! Highly recommend!"
     },
 
 
@@ -32,7 +32,7 @@ window.reviewData = [
         name: "Bill Joh",
         date: "2023-07-15",
         rating: 4,
-        comment:"Slapjack brings back fond childhood memories. It's a simple and entertaining game for all ages."
+        comment:"Slapjack brings back childhood memories. It's a simple and entertaining game for all ages."
     }
 
 
